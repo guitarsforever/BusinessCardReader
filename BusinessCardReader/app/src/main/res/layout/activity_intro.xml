@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:pv="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shreyassudheendrarao.businesscardreader.IntroActivity">
+    <me.wangyuwei.particleview.ParticleView
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        pv:pv_background_color="#2E2E2E"
+        pv:pv_host_text="SSMH"
+        pv:pv_host_text_anim_time="800"
+        pv:pv_host_text_size="30sp"
+        pv:pv_particle_text="CARD READER"
+        pv:pv_particle_text_size="30sp"
+        pv:pv_spread_anim_time="800"
+        pv:pv_text_anim_time="1000"
+        pv:pv_text_color="@color/colorPrimary" />
+</RelativeLayout>
